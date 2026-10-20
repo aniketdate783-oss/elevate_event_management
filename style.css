@@ -313,3 +313,15 @@ section{
 .contact-btn:hover{
     transform:scale(1.05);
 }
+.auth-page{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:30px;background:linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),url("images/event1.jpg") center/cover fixed}
+.auth-card{width:min(440px,100%);background:#fff;padding:38px;border-radius:16px;box-shadow:0 12px 40px #0005}
+.auth-card h1{font-size:30px;margin-bottom:8px;color:#222;text-align:center}
+.auth-card .sub{color:#666;text-align:center;margin-bottom:25px}
+.auth-card form{gap:12px}
+.auth-card label{font-weight:600;text-align:left}
+.auth-card input{width:100%;padding:13px;border:1px solid #ddd;border-radius:7px;font-size:16px}
+.auth-card button{width:100%;margin-top:8px}
+.auth-card a{color:#9b7b10}
+.auth-note{font-size:13px;color:#777;line-height:1.5;margin-top:15px;text-align:center}
+.auth-back{display:block;text-align:center;margin-top:20px;color:#9b7b10}
+.auth-message{font-size:14px;margin-top:12px;text-align:center}
